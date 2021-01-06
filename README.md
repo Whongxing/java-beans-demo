@@ -11,9 +11,9 @@ IOC容器的实现JavaBens中BenaInfo的测试案例
 - JDK 1.1 AWT Enhancements （JDK 1.1 AWT增强）
 - JAR file specification （JAR文件规范）
 - Remote Method Invocation （远程方法调用）
-- Java IDL
+- Java IDL组成的一组相关的api
 
-组成的一组相关的api，讲道理这里除了反射规范、序列化、文件规范，剩下其他的东西，我也不太清楚，反正就是说一系列规范
+讲道理这里除了反射规范、序列化、文件规范，剩下其他的东西，我也不太清楚，反正就是说一系列规范
 
 而javaBean则是单指其中某一个组件，或者是符合JavaBeans™ API specification规范的java类
 
