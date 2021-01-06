@@ -40,7 +40,12 @@ public interface BeanInfo {
     
     int getDefaultPropertyIndex();
     
-    等等
+    MethodDescriptor[] getMethodDescriptors();
+    
+    BeanInfo[] getAdditionalBeanInfo();
+    
+    Image getIcon(int iconKind);
+}
 
 ```
 
