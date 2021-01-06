@@ -18,3 +18,12 @@ IOC容器的实现JavaBens中BenaInfo的测试案例
 而javaBean则是单指其中某一个组件，或者是符合JavaBeans™ API specification规范的java类
 
 所以我先这么理解，要是不对后期再改，JavaBeans指的就是 JavaBeans 规范也就是位于 java.beans 包中的一组 API，其中BeanInfo就是位于java.beans下。
+# 二、操作一下BeanInfo
+##### 首先获取一个BeanInfo
+```
+    public static void main(String[] args) throws IntrospectionException {
+        //处理一下,自省异常,这里throws
+        BeanInfo beanInfo = Introspector.getBeanInfo(Person.class);
+    }
+```
+
