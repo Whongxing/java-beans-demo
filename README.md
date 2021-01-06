@@ -43,5 +43,7 @@ public interface BeanInfo {
 }
 
 ```
+可以看一下，下面测试代码通过遍历propertyDescriptor，我们来看看BeanInfo中的PropertyDescriptor[]里面到底是什么
 ![](https://github.com/Whongxing/java-beans-demo/blob/master/src/image/%E9%81%8D%E5%8E%86%E4%B8%80%E4%B8%8B%E4%B8%80%E4%B8%AA%E7%B1%BB%E7%9A%84propertyDescriptors.PNG)
-![]()
+结果图
+![](https://github.com/Whongxing/java-beans-demo/blob/master/src/image/%E4%BF%9D%E5%AD%98propertyDescr%E7%9A%84%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C.PNG)
