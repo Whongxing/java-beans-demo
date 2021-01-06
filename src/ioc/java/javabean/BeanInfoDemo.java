@@ -3,6 +3,7 @@ package ioc.java.javabean;
 import java.beans.BeanInfo;
 import java.beans.IntrospectionException;
 import java.beans.Introspector;
+import java.util.stream.Stream;
 
 /**
  * BeanInfo示例
@@ -12,6 +13,10 @@ import java.beans.Introspector;
 public class BeanInfoDemo {
     public static void main(String[] args) throws IntrospectionException {
         //处理一下,自省异常
-        BeanInfo beanInfo = Introspector.getBeanInfo(Person.class);
+        BeanInfo beanInfo = Introspector.getBeanInfo(Person.class,Object.class);
+        Stream.of(beanInfo.getPropertyDescriptors())
+        .forEach(propertyDescriptor->{
+            System.out.println(propertyDescriptor);
+        });
     }
 }
