@@ -26,7 +26,7 @@ IOC容器的实现JavaBens中BenaInfo的测试案例
         BeanInfo beanInfo = Introspector.getBeanInfo(Person.class);
     }
 ```
-##### 跟踪一下BeanInfo类
+##### 跟踪一下BeanInfo类,测试一下Person.class的PropertyDescriptor
 ```
 public interface BeanInfo {
     //Bean的一些基本信息
@@ -43,4 +43,5 @@ public interface BeanInfo {
 }
 
 ```
-
+![](https://github.com/Whongxing/java-beans-demo/blob/master/src/image/%E9%81%8D%E5%8E%86%E4%B8%80%E4%B8%8B%E4%B8%80%E4%B8%AA%E7%B1%BB%E7%9A%84propertyDescriptors.PNG)
+![]()
